@@ -39,9 +39,10 @@ int main(){
     cout << "Reversed text: ";
     cout << func1(input) << endl;
     cout << "Palindrome: ";
-    if(func2(input) == func2(func1(input)))
+    if(func2(input) == func2(func1(input))){
     	cout << "Yes" << endl;
-    else
+	}else{
     	cout << "No" << endl;
+	}
     return 0;
 }
