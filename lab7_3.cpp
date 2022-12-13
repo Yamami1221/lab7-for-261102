@@ -3,8 +3,8 @@
 using namespace std;
 
 int adiff(int a, int b){
-    a = a%360;
-    b = b%360;
+  a = a%360;
+  b = b%360;
   int result;
   if(a > b){
     result = a - b;
